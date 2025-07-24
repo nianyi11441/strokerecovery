@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Lightbulb, Award, Smile, Frown, Meh, Loader, Send, MessageSquare } from 'lucide-react';
 
-const StrokeRecoveryMVP = () => {
+const App = () => {
   // Environment variable for demo mode
   // During local development, `process.env.REACT_APP_DEMO_MODE` will be undefined or "false" unless explicitly set.
   // On platforms like Railway/Render, it will pick up the environment variable.
@@ -427,4 +427,4 @@ const StrokeRecoveryMVP = () => {
   );
 };
 
-export default StrokeRecoveryMVP;
+export default App;
