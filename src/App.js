@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Lightbulb, Award, Smile, Frown, Meh, Loader, Send, MessageSquare } from 'lucide-react';
 
-const App = () => {
+const App = () => { // Renamed from StrokeRecoveryMVP to App as per Railway's suggestion
   // Environment variable for demo mode
   // During local development, `process.env.REACT_APP_DEMO_MODE` will be undefined or "false" unless explicitly set.
   // On platforms like Railway/Render, it will pick up the environment variable.
